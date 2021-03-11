@@ -12,19 +12,19 @@ Original code sourced from Terry's programs folder
 /*
 NOTE: Run find_opt_grp.do first
 
------------------------------------------
-| EVENT		|	OPTIMAL GRP #	|
------------------------------------------
-| age65		|		4	|
-| chf1		|		4	|
-| copd		|		3	|
-| dementia	|		4	|
-| fall		|		4	|
-| mp_icu	|		4	|
-| mp_2hosp65	|		2	|
-| nurshome	|		3	|
-| surgery	|		4	|
------------------------------------------
+-----------------------------------------------------------------
+| EVENT		|	OPTIMAL GRP #	|	REF GRP #	|
+-----------------------------------------------------------------
+| age65		|		4	|		3	|
+| chf1		|		4	|		2	|
+| copd		|		3	|		3	|
+| dementia	|		4	|		1	|
+| fall		|		4	|		4	|
+| mp_icu	|		4	|		4	|
+| mp_2hosp65	|		2	|		2	|
+| nurshome	|		3	|		3	|
+| surgery	|		4	|		4	|
+-----------------------------------------------------------------
 */
 
 set more off

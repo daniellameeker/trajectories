@@ -29,8 +29,8 @@ surgery		|		4	|
 
 set more off
 
-local event = "surgery"
-local num_grp = "4"
+local event = "age65"
+local num_grp = "3"
 local orders 3 3 3 3
 local init_var = "init_age init_stroke init_hearte init_lunge init_cancre init_diabe init_hibpe"
 local risk_var = "init_age ragender race"
@@ -83,5 +83,5 @@ di "Max AUC = Group # `ref_grp'"
 traj, model(cnorm) var(hui3ou*) indep(obsint*) order(`orders') refgroup(`ref_grp') min(-0.36) max(1.0) risk(`risk_var')
 
 
-graph save Graph "/schhome/users/anikethm/Trajectories/Output/Traj_Plot/traj_`num_grp'grp_`var'.gph",replace
-graph export "/schhome/users/anikethm/Trajectories/Output/Traj_Plot/traj_`num_grp'grp_`var'.png",replace
+graph save Graph "/schhome/users/anikethm/Trajectories/Output/Traj_Plot/`event'.gph",replace
+graph export "/schhome/users/anikethm/Trajectories/Output/Traj_Plot/`event'.png",replace

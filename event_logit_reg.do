@@ -15,25 +15,25 @@ NOTE: Run find_opt_grp.do first
 -----------------------------------------------------------------
 | EVENT		|	OPTIMAL GRP #	|	REF GRP #	|
 -----------------------------------------------------------------
-| age65		|		4	|		3	|
-| chf1		|		4	|		2	|
-| copd		|		3	|		3	|
-| dementia	|		4	|		1	|
-| fall		|		4	|		4	|
+| age65		|		5	|		4	|
+| chf1		|		3	|		3	|
+| copd		|		4	|		4	|
+| dementia	|		4	|		4	|
+| fall		|		5	|		5	|
 | mp_icu	|		4	|		4	|
-| mp_2hosp65	|		2	|		2	|
-| nurshome	|		3	|		3	|
-| surgery	|		4	|		4	|
+| mp_2hosp65	|		5	|		5	|
+| nurshome	|		2	|		2	|
+| surgery	|		3	|		3	|
 -----------------------------------------------------------------
 */
 
 set more off
 
-local event = "surgery"
-local orders 3 3 3 3
-local ref_grp = "4"
-local init_var = "init_age init_stroke init_hearte init_lunge init_cancre init_diabe init_hibpe"
-local risk_var = "init_age ragender race"
+local event = "nurshome"
+local orders 3 3
+local ref_grp = "2"
+local init_var = "n_init_age init_stroke init_hearte init_lunge init_cancre init_diabe init_hibpe"
+local risk_var = "n_init_age ragender race"
 
 use /schhome/users/anikethm/Trajectories/Data/`event'.dta, clear
 traj, model(cnorm) var(hui3ou*) indep(obsint*) order(`orders') refgroup(1) min(-0.36) max(1.0) risk(`risk_var')

@@ -4,7 +4,7 @@ Estimate optimal number of trajectories using the traj procedure
 @author - Aniketh Manjunath
 @version - 3.0
 @start_date - 01/06/2021
-@end_date - 03/10/2021
+@end_date - 05/11/2021
 **/
 
 /*
@@ -18,14 +18,13 @@ local event = "age65 chf1 copd dementia fall mp_icu mp_2hosp65 nurshome surgery"
 local init_var = "init_age init_stroke init_hearte init_lunge init_cancre init_diabe init_hibpe"
 
 * risk variables
-local risk_var = "init_age ragender race"
-
+local risk_var = "n_init_age ragender race"
 
 local size : word count `event'
 mat A = J(1, `size', 1)
 local i 1
 
-quietly foreach var in `event' { 
+foreach var in `event' { 
 	
 	local orders 3
 	
@@ -38,6 +37,7 @@ quietly foreach var in `event' {
 	
 	* find optimal polynomial upto degree 9
 	forvalues n = 1 / 9 {
+	
 		local orders `orders' 3
 		
 		traj, model(cnorm) var(hui3ou*) indep(obsint*) order(`orders') refgroup(1) min(-0.36) max(1.0) risk(`risk_var')

@@ -15,25 +15,25 @@ NOTE: Run find_opt_grp.do first
 -----------------------------------------
 | EVENT		|	OPTIMAL GRP #	|
 -----------------------------------------
-| age65		|		4	|
-| chf1		|		4	|
-| copd		|		3	|
+| age65		|		5	|
+| chf1		|		3	|
+| copd		|		4	|
 | dementia	|		4	|
-| fall		|		4	|
+| fall		|		5	|
 | mp_icu	|		4	|
-| mp_2hosp65	|		2	|
-| nurshome	|		3	|
-| surgery	|		4	|
+| mp_2hosp65	|		5	|
+| nurshome	|		2	|
+| surgery	|		3	|
 -----------------------------------------
 */
 
 set more off
 
-local event = "surgery"
-local num_grp = "3"
-local orders 3 3 3 3
-local init_var = "init_age init_stroke init_hearte init_lunge init_cancre init_diabe init_hibpe"
-local risk_var = "init_age ragender race"
+local event = "mp_2hosp65"
+local num_grp = "5"
+local orders 3 3 3 3 3
+local init_var = "n_init_age init_stroke init_hearte init_lunge init_cancre init_diabe init_hibpe"
+local risk_var = "n_init_age ragender race"
 
 use /schhome/users/anikethm/Trajectories/Data/`event'.dta, clear
 
@@ -46,12 +46,12 @@ mat group_mem = e(groupSize1)
 local ref_grp = -1
 local max_auc = -1
 
-reshape long obsint hui3ou, i(hhidpn) j(obsint_tmp)
+egen auc = rowtotal(hui3ou*)
 
 * plot edits
 forvalues i = 1(1)`num_groups' {
 
-	quietly sum hui3ou if _traj_Group == `i'
+	quietly sum auc if _traj_Group == `i'
 	
 	if (r(mean) > `max_auc') {
 		local max_auc = r(mean)
@@ -61,12 +61,10 @@ forvalues i = 1(1)`num_groups' {
 	gr_edit .plotregion1.plot`i'.style.editstyle line(width(+`x')) editcopy
 }
 
-reshape wide obsint hui3ou, i(hhidpn) j(obsint_tmp)
-
 di "All Groups"
-sum `init_var'
-tab ragender, nolabel
-tab race, nolabel
+sum `init_var' if !missing(_traj_Group)
+tab ragender if !missing(_traj_Group), nolabel
+tab race if !missing(_traj_Group), nolabel
 
 * compute stats
 forvalues i = 1(1)`num_groups' {

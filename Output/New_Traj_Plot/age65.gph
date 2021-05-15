@@ -1,0 +1,594 @@
+StataFileTM:00001:01000:LiveGPH:                       :
+00005:00004:
+*! classname: twowaygraph_g
+*! family: twoway
+*! command: twoway (line Est1 trajT, lwidth(thick)) (line Est2 trajT, lwidth(thick)) (line Est3 trajT, lwidth(thick)) (line Est4 trajT, lwidth(thick)) (line Est5 trajT, lwidth(thick)) (line Est6 trajT, lwidth(thick)) (line Est7 trajT, lwidth(thick)) (line Est8 trajT, lwidth(thick)) (scatter Avg1 trajT, mstyle(p1)) (line L951 trajT, lpattern(shortdash) lcolor(gs10)) (line U951 trajT, lpattern(shortdash) lcolor(gs10)) (scatter Avg2 trajT, mstyle(p2)) (line L952 trajT, lpattern(shortdash) lcolor(gs10)) (line U952 trajT, lpattern(shortdash) lcolor(gs10)) (scatter Avg3 trajT, mstyle(p3)) (line L953 trajT, lpattern(shortdash) lcolor(gs10)) (line U953 trajT, lpattern(shortdash) lcolor(gs10)) (scatter Avg4 trajT, mstyle(p4)) (line L954 trajT, lpattern(shortdash) lcolor(gs10)) (line U954 trajT, lpattern(shortdash) lcolor(gs10)) (scatter Avg5 trajT, mstyle(p5)) (line L955 trajT, lpattern(shortdash) lcolor(gs10)) (line U955 trajT, lpattern(shortdash) lcolor(gs10)) (scatter Avg6 trajT, mstyle(p6)) (line L956 trajT, lpattern(shortdash) lcolor(gs10)) (line U956 trajT, lpattern(shortdash) lcolor(gs10)) (scatter Avg7 trajT, mstyle(p7)) (line L957 trajT, lpattern(shortdash) lcolor(gs10)) (line U957 trajT, lpattern(shortdash) lcolor(gs10)) (scatter Avg8 trajT, mstyle(p8)) (line L958 trajT, lpattern(shortdash) lcolor(gs10)) (line U958 trajT, lpattern(shortdash) lcolor(gs10)) ,legend(style(zyx2) ring(1) cols(2) pos(6) symxsize(6) order(`" 1 2 3 4 5 6 7 8"') label(1 "1     5.0%") label(2 "2     2.3%") label(3 "3     4.2%")  label(4 "4     7.1%") label(5 "5    59.3%") label(6 "6    12.5%")  label(7 "7     4.4%") label(8 "8     5.3%") label(9 "")  label(10 "") label(11 "") label(12 "")  label(14 "") label(15 "") label(16 "")  label(17 "") label(18 "") label(19 "") ) ytitle(age65 HUI3OU) xtitle(Time from event (year)) ylabel() xlabel() yscale(titlegap(*5)) xscale(titlegap(*5)) scale(1.2)
+*! command_date: 14 May 2021
+*! command_time: 18:00:22
+*! datafile: /schhome/users/anikethm/Trajectories/NewData/age65.dta
+*! datafile_date: 14 May 2021 13:18
+*! scheme: s2color
+*! naturallywhite: 1
+*! xsize: 5.5
+*! ysize: 4
+*! end
+<BeginItem> serset K6dbfc50 
+<BeginSerset>
+<BeginSeries>
+.name = `"Est1"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .0089260153472424
+.max =  .1141900643706322
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"trajT"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  0
+.max =  8.63013744354248
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"Est2"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .3202256560325623
+.max =  .6528336405754089
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"Est3"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .2723405659198761
+.max =  .5412771701812744
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"Est4"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.0511611104011536
+.max =  .8383371829986572
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"Est5"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .8210917115211487
+.max =  .842316746711731
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"Est6"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .6076437830924988
+.max =  .6990709900856018
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"Est7"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.0989976227283478
+.max =  .8100178241729736
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"Est8"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.0327798090875149
+.max =  .7740702033042908
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"Avg1"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.0284579861909151
+.max =  .1447310745716095
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"L951"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.0180509369820356
+.max =  .0884438753128052
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"U951"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .0235591698437929
+.max =  .1399362534284592
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"Avg2"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .2776681184768677
+.max =  .6676428318023682
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"L952"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .2686415314674377
+.max =  .6126001477241516
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"U952"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .3718097805976868
+.max =  .6931010484695435
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"Avg3"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .2251873165369034
+.max =  .5520225763320923
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"L953"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .2195369005203247
+.max =  .5105115175247192
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"U953"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .3251442611217499
+.max =  .5720428228378296
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"Avg4"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .0000242378191615
+.max =  .8300964832305908
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"L954"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.0628790780901909
+.max =  .8164030909538269
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"U954"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.0394431427121162
+.max =  .8602712154388428
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"Avg5"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .8013124465942383
+.max =  .8511958718299866
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"L955"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .8103192448616028
+.max =  .8357356190681458
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"U955"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .8317675590515137
+.max =  .8498440384864807
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"Avg6"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .5936231017112732
+.max =  .7058431506156921
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"L956"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .5935131907463074
+.max =  .6839130520820618
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"U956"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .6217616200447083
+.max =  .7142921090126038
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"Avg7"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .0182165410369635
+.max =  .8162461519241333
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"L957"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.1343549340963364
+.max =  .7823193669319153
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"U957"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.0636403188109398
+.max =  .8377162218093872
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"Avg8"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.0301896445453167
+.max =  .7453744411468506
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"L958"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.0581985972821712
+.max =  .7443844676017761
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"U958"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.0073610236868262
+.max =  .8037559390068054
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite !   %   ˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛Est1                                                                                                                                                  trajT                                                                                                                                                 Est2                                                                                                                                                  Est3                                                                                                                                                  Est4                                                                                                                                                  Est5                                                                                                                                                  Est6                                                                                                                                                  Est7                                                                                                                                                  Est8                                                                                                                                                  Avg1                                                                                                                                                  L951                                                                                                                                                  U951                                                                                                                                                  Avg2                                                                                                                                                  L952                                                                                                                                                  U952                                                                                                                                                  Avg3                                                                                                                                                  L953                                                                                                                                                  U953                                                                                                                                                  Avg4                                                                                                                                                  L954                                                                                                                                                  U954                                                                                                                                                  Avg5                                                                                                                                                  L955                                                                                                                                                  U955                                                                                                                                                  Avg6                                                                                                                                                  L956                                                                                                                                                  U956                                                                                                                                                  Avg7                                                                                                                                                  L957                                                                                                                                                  U957                                                                                                                                                  Avg8                                                                                                                                                  L958                                                                                                                                                  U958                                                                                                                                                  %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                       ÄÕGÇ?           ¿ì~‘?    n—?     1™ø    bFÍ?   `—q„?   ÄËWπø   ‡É»†ø    $ùø   ‡Ò{íø    Âò?   ÄP≈—?   @l1—?   @ªÀ◊?    “Ã?    …Ã?   ‡)œ‘?   @Jj˘>   ‡◊∞ø   @‰1§ø    Z§È?   †"ÓÈ?    ◊ùÍ?   ‡ı˛‚?   `˛‚?   †xÂ„?   `[ßí?   ‡ä2¡ø   `ªJ∞ø   ¿Íûø   ‡4Ã≠ø   ¿ó&~ø   `è;Ω?   `°B!@   `‰‰?   Ä$R·?   Ä®”Í?   @BÙÍ?     ^Ê?   Ä™ÎÈ?   ‡.≈Ë?   @åÜ¬?    B§∂?   `nÈ¡?   ÄT]Â?   †kö„?   @‚-Ê?   @+™·?   @V‡?   ¿,N‚?   Ä&êÍ?   `˘Í?   ÄWáÎ?    ˇ<Î?   †XæÍ?    Ï1Î?   `DñÊ?   †ù‚Â?    {€Ê?   @∞Í?   †¬È?   @íŒÍ?   Ä⁄Á?   `ˇ—Á?   `^∏È?{‹È=    ûÙ£>$ë
+?åÉ;?¢W?!•1?T]O?w)F?ÚF="µ=sK>m;£>bãâ>⁄]æ>îè?‚∞?fq?‚@?∑€5?a+A?*Y?¬¥U?aèY?#≤4?≈,?$Ö6?ÇıP?FH?ítV?‹–>?˚è>?Û¬M?ì€=?~|>D¶>â1?˚UF?⁄yW?`2?à∏L?ÈZ+?ó’÷= “Ø=π©>≠>é>6oæ>ZQ?Æÿˇ>ªv?á¸B?ª‚@?;…K?F≤W?@‡U?sY?K=0?Ì.?*æ6?rM?ÙÀF?•R?ØÆ-?2ê%?°%1?uÂÕ=?~¸>—©©>Û?´4N?˝UW?ôŒ2?Ì»J?$Œ?ü◊={h®=obÛ=ìﬂ…>¸≤í>ß†¿>6Í?“á˘>˝_?&´J?ä…H?ÃüS?˘ÁY?≈ÚU?6πX?ø3?X¡.?Ÿ€6?Q¨J?ókE?D&P?s )?Å?<?y–¿=Ø^=?∆Æ>∫_¸>Ã\S?6W?Qˆ2?®{I?&˘>®ËÒ=Ÿü=ö‚=Ñ*é>`ìó>-àƒ>ÃÒ>∆}Ú>◊ ?]úM?»ÊM?–“X?©V?ÎÓU?K}X?æâ+?Ì/?µ◊6?™G?Y>D?˜∏N??%¶Ó>	”?"Q¥=?~|?X≥>Äı>V?œW?π‹2?%ºH? —>ˆä=Á#î=]~‘=^Fü>áÛú>îº…>gb?sÎ>åˇ>4ÅT?≤ãP?mû[?ﬁ6V?€U?èXX?0˙+?Ô/?Ç©6?a—A?ÂbC?dN?œ??ˇY∆>Ê€>jd®=ÁŒù?∂pπ>*4Ó>DùV?∏ W?Oá2?‡tH?ÇR≠>_∆û=^sà=uU»=ìõ>{¸¢>Ú‰œ>ıÜˆ>†Ø„>¥∏¯>eQ?ÀˇP?º:\?ê0W?3øU?=BX?#R4?ƒ.?J6?ÀÇJ?ûÎB?"˛M?—õ
+?	'¢>˙}∏>Iù=Ø^Ω?—?¿>¨¬Á>E$U?pÍV?í˚1?“èH?ﬁÖç>´‹∫=ÍNy=gΩ=∏Ω¡>\¬©>FΩ÷>‘ÙÁ>ÿ¨‹>ÄÿÚ>x◊R?≠}O?ﬁ Z?N≤V?¢U?‹2X?´T-?¯?.?,∑5?@pH?⁄B?$EN?‡_„>ˆ˝Å>∆ô>π6í=wÓ‹?m≠«>˘∑·>@…Q?ï÷V?¸>1?≠ˆH?ﬁc>b4>øáb=í)≥=Ü°>·F±>˙ﬁ>Æ»⁄>.2÷>ƒ=Ì>⁄{O?m3L?_W?ÕT?∑áU?s%X?%ç/?é-?zÔ4?aA?Ä%C?⁄«N?qœm>ÚzK>…éz>≤Ôá=?~¸?õ°œ>‹>Ú§L?¬ƒV?
+W0?
+ìI?!2>7Î<£.M=H©=Lûœ>‘}π>c≈Â>ëû›>ﬂN–>&œÁ>dE?§CG?AR?YÙX?OrU?5X?µ14?‡∑,?3ˆ3?ÕE?^ªC?∂jO?§Ú_=Ωp>]—I>Z^|=@jÿ>ª¬÷>O‘E?í¥V?6I/?ÑNJ?Ô>`Uµ=è9=Œñü=©ù>Q¬>«∑Ì>†eÃ>ßÀ>œÇ‚>Ê˜D?s∆@?+‚J?~õX?NbU?÷X?„®.?,¬+??–2?Ì–J?îÜD?tP?€E>Ë‡=‹m>H‰i=ÁŒ@ÈΩ‡>Œ—>c~=?†•V?ˇ.?ŒK?m
+»=¶“=óΩ'=|ñ=D;¸>P£À>Éÿı>◊
+È>D∆>X›>⁄˜??2œ8?î-B?WX?<WU?ÙW?µN0?Ú±*?Ñ1?ﬂO?…nE?”∂P?ø«=Ì#ö=Óı=kX=Àñ-@*∂È>,Õ>”3?áóV?‰—,?¡…K?/›ã=aîÀ=Æ™=≈ïå=˜kΩ>-R’>&˛>WkΩ>h¬>§Tÿ>¨ÿ>?@x/?ÿ-8?é…T? PU?ﬂW?Ï'?™ä)?0?s.M?mYF?:Q?4ª=õF?=∏=«ÏG=Ø^=@:’Ú>}◊»>à)?„âV?gs+?`]L?P˜4=ZÈN=Â.	=TUÉ=ãRﬁ>X7ﬂ>é9?bôƒ>¡+æ>9É”>
+◊5?ΩÎ$?S-?ÀÒX?KU?¥»W?B*?O(?∆ó.?ÛÃI?„)G?›êQ?¡s=À¥¡<äÑ=<c8=ì&M@+¸>mÀƒ>ÂG?M|V?
+*?Œ∑L?(Ã<∑ñ >¡#¯<ò¥t=ˆÛ¥>«)È>Hn?vπ>F£∫>ïÛŒ>S?≠_?0!?ZúV?•FU?ˆ±W?aÒ(?;'?Ÿ-?≈L?´¡G?≠Q?ä’ =`N∏;\5=k»)=wÓ\@î? ¡>ª…?anV?Så(?1√L?v
+%<UB.=x‡<öÅc=ô]?ˇÚ>Ü®?o|õ>üK∑>ˆπ >¿á?Ì
+?àà?’_X?«@U?˚õW?˘!+?H£%?^u+?¯àP?H?bÖQ?ﬁa(=≥Æ ºœaÂ<D=[∂l@ı?ÜxΩ>˝∏?π_V?∆'?àiL?2´J∫•rã=¢∂…<8QS=9˝>>ç¸>KÂ?pµ>¥>ˇÏ∆>∞£ ? ?ˆR?ÈÅW?ô7U?ÿáW?KX%?z7$?Ê)?±B?^»G?≤
+Q?}Å<í§çºﬂ˘Ä<πF=?~|@k{?ì'∫>ÓÖÏ>ÓOV?Îë%?mîK?…ﬁº∫Ê5<°S¥<°cD=õ™? ÷? ?4ó§>πÆ∞>m†√>Ÿ∫ ?ˆëÂ>ÊyÛ>µWW?å)U?PvW?T•%?¡"?‘b(?ÿ∏I?˙F?Í-P?v~Æ;$æºmΩË;∑S=#Ü@n∏?‰
+∑>à)—>ú>V?H$?Ë,J?ãGºŒYV=˚nü<ÒÔ6=ùè?ò?DQ?z¡>/8≠>ö›¿>K]Ù>Öh >äÍ◊>'˚V?üU?ögW?å+$?ÄD!?Ú&?Ü{H?¸ÄE?”ÿN?∂‹*<Ó’º(0Ê:cn<é@¡?l¥>Û∂µ>]+V?c∞"?JH?ß^º-yT=w¨ä<'+=U?ö?mm?n~»>%ú©>¥ûæ>·D≤>#Ø>ƒTº>_•W?Å˚T?8[W?:*?D»?Çò%?{IL?[HC?9ÓL?Û÷F<¶Ÿº ∫0÷€<ıÍï@2â?Z±>Zàö>…V?ƒV!?EGE?H(Pº†ç=Ä›k<–ﬁ =Â?á≠?›d ?‘ƒ>m„•>Œ–º>@Y6><˝ì>x°>ò'U?ê€T?PW?GÕ$?T?hY$?ﬂG?mB@?LJ?)•ô< kÕºRØπ±“»<ÁŒù@ˇ?ÍªÆ>∂Ô>{˝U?Ò ?0òA?≈#º	0b<|ªB<“#=+ ?rÂ?å$$?ù∑ê>o¢>fZª>’ü€<=·r>Ü>!ƒW?û∂T?WDW?Íò?⁄?7#?gÃK?¬`<?ûœF?`ha:4 µºtÎ;»W∑<Ÿ≤•@p(?∆=¨>AøL>‚U?qÌ?áı<?ΩSºªçY¬;ÿ¥<í™=§?|π?dó'?:N¨>QZû>:!∫>ﬂ)>™¢?>◊€Y>√ïV?∫çT?\6W?LX?¢ß??3"?¥m???í7?–XB?çâ<¸éìºuî’;TYß<Àñ≠@çÁ ?°⁄©>§3>√U?…Ë?hG7?5	∫ïÌ#=ZöÈ;	&
+=ÒÛ'?í'?áß*?nÉ> ®ö>Cπ>ô¯*>÷˝>qi)>ªDT?ıaT?1$W?|Á!?ôÅ?˘O!?«O5? ¬1?—Ã<?í5=î|WºNZF<5Àò<Ωzµ@a6#?qçß>gﬁ=*†U?Å?ﬁv0?¶≠;G⁄g;L.§;lE=˜{"?s-?O?-?G‹>Xó>ä	∏>àwG=Ãe√=ü¯=ÉéV?94T?W?mê'?âá?yè ?Üü6?àÿ*?36?gÃ0:d„ˇªÃñ<L°ã<Ø^Ω@˙%?&Q•>≈∏ã=ÈxU?[?ƒm(?h9<A≥«;Ÿ1N;\|˝<Q&?Î«?	J/?™’õ>+ûì>"∑>mäW;€b=p¶=œ§V?1T?°ÏV?í–?∫¡?ÇÙ?„-?«æ"?¡.?∑Ñ<lwªVΩÀ<û<°B≈@kS&?¥ £>£Á=ÁLU?&›?X?tïã<∑ú¬<Ëyœ:QßÚ<g)?Ú?∫¥0?3D¢>lSê>¸Ìµ>–ÍÜ<l°<C;=πhU?&’S?®ƒV?Ø˜? 7?ÅÇ?UÌ?◊`?ŸÀ$?ëÑí;ˇ'L;È•˝<3ìj<ì&Õ@∆	'?˜†>Ëµ#;∫U?ó?¥Z?~µ<xÔ<Qoµ9vΩÁ< ∞?y§?o1?˝a∞>.3ç>Ï∫¥>S€<3“*º'≠|<zNV?›£S?óìV?nÙ?{?¡=?/Ó$?œ≠?ö?<N@;ù<>2=$X<Ö
+’@ '?$œû>∑~±º¯‰T?ãé?ó$?^ò’< ﬂ<æN∫ö±‹<§Í*?]”?Ÿl1?ŸÖ>U<ä>Úa≥>_ıR<LﬂΩ™}º”äU?UpS?úYV?+±?QÒ?≈+?<¿?cî? ¥?‹Bú9Ù$F<!$=É‚G<wÓ‹@   Î£ú>Q9 Ω7®T?Û»?‘∫Ù>   Êˆ#4¿†ü∫è‹—<         %4Œ>Ëiá>Ì›±>–)—8SΩ4´⁄ºÅU?m8S? V?˜ª?ˇ=?ËS?6\˛>˝È>πwˇ>         :<i“‰@€<%?Tpö>´jIΩ
+eT?€K?‚‹’>ÍöÌ<π ÈºP≥‚∫I8»<˛Û?<V?{#/?Åóf>Û±Ñ>∂.∞>ß£8˛√zΩXΩÖ¡T?d¯R?∞—U?Ö(?^◊?X¿?>Ú°À>“‡>FP˜ºöÇ<ùô,=ön.<[∂Ï@F+#?S/ò>PéQΩT?∆?¡Å≥>¸(ﬁ<Fs”;Æ¬ªÔ¶¡<Ë< ?˘g?ìÓ,?Ñi™>˙Ç>≠ZÆ>RRÀ7ø∆ÄΩ"è!ΩwV?s™R?ñãU?‰î ?∫? ?Uôx><»©>E;Ω>ëÂ;Ÿm<ÜÂ"=ÿÓ$<MöÙ@ØI ?€€ï>[◊5Ωπ…S?9A?◊{ç>›∆∑<°.;äÇ`ª)ˇ¿<∫?µl?©&*?⁄<ñ>é~>´p¨>+ô95¥eΩÇ˙ΩkÄV?GR?ULU?p-?:›?7•!?œÉ>	Ñ>´Óñ>ôß~;£°!<t^=ìu<?~¸@å?‹pì>|◊Êº∏pS?µæ?;G>Aım<`Ê]<©êØªæY…<èT?e%?≈Ú&?nÚê>ºØx>⁄â™>?ã <ø«%ΩzÇºêU?Œ∆Q?£U?qã ?\3?J#?ﬁ€=«¡3>h¥Z>Ï<ë;è:aÂ<ëÍ<1AvÊ?JÈê>Ä{Ì∫íS?ªö!?Â÷={\B;ﬁ	á<!Ω	º!…‹<ÅR?"W?Àu#?y.ó>^r>f ®>Ìéá<NTÄºªIE<âXS?)$Q?˚˙T?kt"?Ø?tÜ%?¶ù=.0´=M>A}<ÓMQº>ô<ó5<#AﬁL?@é>{ =÷•R?«⁄#?Ë±Ë;zwOºùÂ7;5=Oº2‘˚<‚?˙Ÿ?¡ø?xÈÅ>tAj>x_ß>˙^y<x∑ö<;•T=#T?Ù\P?∏ÓT?πç#?:I?Ul(?_Á=&]öº[=h|∫–¢Ωô8Á;l><
+AW≥?9pã>„S¨=3R?PÑ&?Dø ΩDΩ†Í‰≠èﬂìº˛=+_?÷5˜>√À?J¥°>HŒ`>Oy¶>i®8µ»Ç=ﬂ’=–"M?qO?ıT?YÁ#?%!?z,?€:ï<Wî	æ€UÇΩi4°2ßanΩæ4Òª                                                                                                   
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> scheme K6733290 
+.setscheme , scheme(s2color) naturallywhite(1)
+<EndItem>
+<BeginItem> twowaygraph_g K69b22b0 <UseScheme> K6733290
+.sersets[1] = .__Map.K6dbfc50.ref
+.insert (plotregion1 = .plotregion.new , style(scheme twoway) graph(`.objkey')) at 1 1
+.plotregion1.Declare plot1 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof Est1') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p1line) 
+.plotregion1.plot1.style.editstyle line(width(thick)) area(linestyle(width(thick))) editcopy
+.plotregion1.Declare plot2 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof Est2') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p2line) 
+.plotregion1.plot2.style.editstyle line(width(thick)) area(linestyle(width(thick))) editcopy
+.plotregion1.Declare plot3 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof Est3') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p3line) 
+.plotregion1.plot3.style.editstyle line(width(thick)) area(linestyle(width(thick))) editcopy
+.plotregion1.Declare plot4 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof Est4') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p4line) 
+.plotregion1.plot4.style.editstyle line(width(thick)) area(linestyle(width(thick))) editcopy
+.plotregion1.Declare plot5 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof Est5') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p5line) 
+.plotregion1.plot5.style.editstyle line(width(thick)) area(linestyle(width(thick))) editcopy
+.plotregion1.Declare plot6 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof Est6') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p6line) 
+.plotregion1.plot6.style.editstyle line(width(thick)) area(linestyle(width(thick))) editcopy
+.plotregion1.Declare plot7 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof Est7') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p7line) 
+.plotregion1.plot7.style.editstyle line(width(thick)) area(linestyle(width(thick))) editcopy
+.plotregion1.Declare plot8 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof Est8') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p8line) 
+.plotregion1.plot8.style.editstyle line(width(thick)) area(linestyle(width(thick))) editcopy
+.plotregion1.Declare plot9 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof Avg1') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p9) 
+.plotregion1.plot9.style.editstyle marker(p1) editcopy
+.plotregion1.Declare plot10 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof L951') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p10line) 
+.plotregion1.plot10.style.editstyle line(color(gs10)) area(linestyle(color(gs10))) line(pattern(shortdash)) area(linestyle(pattern(shortdash))) editcopy
+.plotregion1.Declare plot11 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof U951') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p11line) 
+.plotregion1.plot11.style.editstyle line(color(gs10)) area(linestyle(color(gs10))) line(pattern(shortdash)) area(linestyle(pattern(shortdash))) editcopy
+.plotregion1.Declare plot12 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof Avg2') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p12) 
+.plotregion1.plot12.style.editstyle marker(p2) editcopy
+.plotregion1.Declare plot13 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof L952') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p13line) 
+.plotregion1.plot13.style.editstyle line(color(gs10)) area(linestyle(color(gs10))) line(pattern(shortdash)) area(linestyle(pattern(shortdash))) editcopy
+.plotregion1.Declare plot14 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof U952') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p14line) 
+.plotregion1.plot14.style.editstyle line(color(gs10)) area(linestyle(color(gs10))) line(pattern(shortdash)) area(linestyle(pattern(shortdash))) editcopy
+.plotregion1.Declare plot15 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof Avg3') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p15) 
+.plotregion1.plot15.style.editstyle marker(p3) editcopy
+.plotregion1.Declare plot16 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof L953') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p1line) 
+.plotregion1.plot16.style.editstyle line(color(gs10)) area(linestyle(color(gs10))) line(pattern(shortdash)) area(linestyle(pattern(shortdash))) editcopy
+.plotregion1.Declare plot17 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof U953') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p2line) 
+.plotregion1.plot17.style.editstyle line(color(gs10)) area(linestyle(color(gs10))) line(pattern(shortdash)) area(linestyle(pattern(shortdash))) editcopy
+.plotregion1.Declare plot18 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof Avg4') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p3) 
+.plotregion1.plot18.style.editstyle marker(p4) editcopy
+.plotregion1.Declare plot19 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof L954') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p4line) 
+.plotregion1.plot19.style.editstyle line(color(gs10)) area(linestyle(color(gs10))) line(pattern(shortdash)) area(linestyle(pattern(shortdash))) editcopy
+.plotregion1.Declare plot20 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof U954') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p5line) 
+.plotregion1.plot20.style.editstyle line(color(gs10)) area(linestyle(color(gs10))) line(pattern(shortdash)) area(linestyle(pattern(shortdash))) editcopy
+.plotregion1.Declare plot21 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof Avg5') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p6) 
+.plotregion1.plot21.style.editstyle marker(p5) editcopy
+.plotregion1.Declare plot22 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof L955') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p7line) 
+.plotregion1.plot22.style.editstyle line(color(gs10)) area(linestyle(color(gs10))) line(pattern(shortdash)) area(linestyle(pattern(shortdash))) editcopy
+.plotregion1.Declare plot23 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof U955') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p8line) 
+.plotregion1.plot23.style.editstyle line(color(gs10)) area(linestyle(color(gs10))) line(pattern(shortdash)) area(linestyle(pattern(shortdash))) editcopy
+.plotregion1.Declare plot24 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof Avg6') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p9) 
+.plotregion1.plot24.style.editstyle marker(p6) editcopy
+.plotregion1.Declare plot25 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof L956') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p10line) 
+.plotregion1.plot25.style.editstyle line(color(gs10)) area(linestyle(color(gs10))) line(pattern(shortdash)) area(linestyle(pattern(shortdash))) editcopy
+.plotregion1.Declare plot26 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof U956') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p11line) 
+.plotregion1.plot26.style.editstyle line(color(gs10)) area(linestyle(color(gs10))) line(pattern(shortdash)) area(linestyle(pattern(shortdash))) editcopy
+.plotregion1.Declare plot27 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof Avg7') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p12) 
+.plotregion1.plot27.style.editstyle marker(p7) editcopy
+.plotregion1.Declare plot28 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof L957') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p13line) 
+.plotregion1.plot28.style.editstyle line(color(gs10)) area(linestyle(color(gs10))) line(pattern(shortdash)) area(linestyle(pattern(shortdash))) editcopy
+.plotregion1.Declare plot29 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof U957') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p14line) 
+.plotregion1.plot29.style.editstyle line(color(gs10)) area(linestyle(color(gs10))) line(pattern(shortdash)) area(linestyle(pattern(shortdash))) editcopy
+.plotregion1.Declare plot30 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof Avg8') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p15) 
+.plotregion1.plot30.style.editstyle marker(p8) editcopy
+.plotregion1.Declare plot31 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof L958') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p1line) 
+.plotregion1.plot31.style.editstyle line(color(gs10)) area(linestyle(color(gs10))) line(pattern(shortdash)) area(linestyle(pattern(shortdash))) editcopy
+.plotregion1.Declare plot32 = .yxview.new , type(line) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof U958') xvariable(`.sersets[1].seriesof trajT')    plotregion(`.plotregion1.objkey') style(scheme p2line) 
+.plotregion1.plot32.style.editstyle line(color(gs10)) area(linestyle(color(gs10))) line(pattern(shortdash)) area(linestyle(pattern(shortdash))) editcopy
+.plotregion1.clear_scales
+.plotregion1.reset_scales , noclear
+.n_views = 32
+.n_plotregions = 1
+.last_style = 32
+.x_scales = `" "1""'
+.y_scales = `" "1""'
+.create_axes 1 1 "9" "" 9
+.style.editstyle legend_ring(1) editcopy
+.style.editstyle legend_position(6) editcopy
+.insert (legend = .legend_g.new, graphs(`.objkey') style(zyx2)) below plotregion1 , ring(1) 
+.legend.style.editstyle box_alignment(S) editcopy
+.legend.holes = ""
+.legend.style.editstyle  cols(2) key_xsize(6) editcopy
+.legend.insert (note = .sized_textbox.new, mtextq(`""') style(scheme leg_note) ) below plotregion1 , ring(3) 
+.legend.note.style.editstyle box_alignment(SW) editcopy
+.legend.note.style.editstyle horizontal(left) editcopy
+.legend.insert (caption = .sized_textbox.new, mtextq(`""') style(scheme leg_caption) ) below plotregion1 , ring(5) 
+.legend.caption.style.editstyle box_alignment(SW) editcopy
+.legend.caption.style.editstyle horizontal(left) editcopy
+.legend.insert (subtitle = .sized_textbox.new, mtextq(`""') style(scheme leg_subtitle) ) above plotregion1 , ring(6) 
+.legend.subtitle.style.editstyle box_alignment(N) editcopy
+.legend.subtitle.style.editstyle horizontal(center) editcopy
+.legend.insert (title = .sized_textbox.new, mtextq(`""') style(scheme leg_title) ) above plotregion1 , ring(7) 
+.legend.title.style.editstyle box_alignment(N) editcopy
+.legend.title.style.editstyle horizontal(center) editcopy
+.legend.rebuild
+.legend.labels[1] = `" "1     5.0%""'
+.legend.labels[2] = `" "2     2.3%""'
+.legend.labels[3] = `" "3     4.2%""'
+.legend.labels[4] = `" "4     7.1%""'
+.legend.labels[5] = `" "5    59.3%""'
+.legend.labels[6] = `" "6    12.5%""'
+.legend.labels[7] = `" "7     4.4%""'
+.legend.labels[8] = `" "8     5.3%""'
+.legend.labels[9] = `" """'
+.legend.labels[10] = `" """'
+.legend.labels[11] = `" """'
+.legend.labels[12] = `" """'
+.legend.labels[14] = `" """'
+.legend.labels[15] = `" """'
+.legend.labels[16] = `" """'
+.legend.labels[17] = `" """'
+.legend.labels[18] = `" """'
+.legend.labels[19] = `" """'
+.legend.parse_order  1 2 3 4 5 6 7 8
+.legend.repositionkeys
+.xaxis1.style.editstyle  title_gap(*5)  editcopy
+.xaxis1.title.edit , mtextq(`"Time from event (year)"')   replace
+.yaxis1.style.editstyle  title_gap(*5)  editcopy
+.yaxis1.title.edit , mtextq(`"age65 HUI3OU"')   replace
+.insert (r1title = .sized_textbox.new, mtextq(`""') style(scheme r1title) orientation(vertical)) rightof plotregion1 , ring(1) 
+.insert (r2title = .sized_textbox.new, mtextq(`""') style(scheme r2title) orientation(vertical)) rightof plotregion1 , ring(2) 
+.insert (l1title = .sized_textbox.new, mtextq(`""') style(scheme l1title) orientation(vertical)) leftof plotregion1 , ring(1) 
+.insert (l2title = .sized_textbox.new, mtextq(`""') style(scheme l2title) orientation(vertical)) leftof plotregion1 , ring(2) 
+.insert (t1title = .sized_textbox.new, mtextq(`""') style(scheme t1title) ) above plotregion1 , ring(1) 
+.insert (t2title = .sized_textbox.new, mtextq(`""') style(scheme t2title) ) above plotregion1 , ring(2) 
+.insert (b1title = .sized_textbox.new, mtextq(`""') style(scheme b1title) ) below plotregion1 , ring(1) 
+.insert (b2title = .sized_textbox.new, mtextq(`""') style(scheme b1title) ) below plotregion1 , ring(2) 
+.insert (note = .sized_textbox.new, mtextq(`""') style(scheme note) ) below plotregion1 , ring(4) 
+.note.style.editstyle box_alignment(SW) editcopy
+.note.style.editstyle horizontal(left) editcopy
+.insert (caption = .sized_textbox.new, mtextq(`""') style(scheme caption) ) below plotregion1 , ring(5) 
+.caption.style.editstyle box_alignment(SW) editcopy
+.caption.style.editstyle horizontal(left) editcopy
+.insert (subtitle = .sized_textbox.new, mtextq(`""') style(scheme subtitle) ) above plotregion1 , ring(6) 
+.subtitle.style.editstyle box_alignment(N) editcopy
+.subtitle.style.editstyle horizontal(center) editcopy
+.insert (title = .sized_textbox.new, mtextq(`""') style(scheme title) ) above plotregion1 , ring(7) 
+.title.style.editstyle box_alignment(N) editcopy
+.title.style.editstyle horizontal(center) editcopy
+.insert (spacert = .spacer.new) above plotregion1 , ring(11)
+.insert (spacerb = .spacer.new) below plotregion1 , ring(11)
+.insert (spacerl = .spacer.new) leftof plotregion1 , ring(11)
+.insert (spacerr = .spacer.new) rightof plotregion1 , ring(11)
+.set_scale 1.2
+.command = `"twoway (line Est1 trajT, lwidth(thick)) (line Est2 trajT, lwidth(thick)) (line Est3 trajT, lwidth(thick)) (line Est4 trajT, lwidth(thick)) (line Est5 trajT, lwidth(thick)) (line Est6 trajT, lwidth(thick)) (line Est7 trajT, lwidth(thick)) (line Est8 trajT, lwidth(thick)) (scatter Avg1 trajT, mstyle(p1)) (line L951 trajT, lpattern(shortdash) lcolor(gs10)) (line U951 trajT, lpattern(shortdash) lcolor(gs10)) (scatter Avg2 trajT, mstyle(p2)) (line L952 trajT, lpattern(shortdash) lcolor(gs10)) (line U952 trajT, lpattern(shortdash) lcolor(gs10)) (scatter Avg3 trajT, mstyle(p3)) (line L953 trajT, lpattern(shortdash) lcolor(gs10)) (line U953 trajT, lpattern(shortdash) lcolor(gs10)) (scatter Avg4 trajT, mstyle(p4)) (line L954 trajT, lpattern(shortdash) lcolor(gs10)) (line U954 trajT, lpattern(shortdash) lcolor(gs10)) (scatter Avg5 trajT, mstyle(p5)) (line L955 trajT, lpattern(shortdash) lcolor(gs10)) (line U955 trajT, lpattern(shortdash) lcolor(gs10)) (scatter Avg6 trajT, mstyle(p6)) (line L956 trajT, lpattern(shortdash) lcolor(gs10)) (line U956 trajT, lpattern(shortdash) lcolor(gs10)) (scatter Avg7 trajT, mstyle(p7)) (line L957 trajT, lpattern(shortdash) lcolor(gs10)) (line U957 trajT, lpattern(shortdash) lcolor(gs10)) (scatter Avg8 trajT, mstyle(p8)) (line L958 trajT, lpattern(shortdash) lcolor(gs10)) (line U958 trajT, lpattern(shortdash) lcolor(gs10)) ,legend(style(zyx2) ring(1) cols(2) pos(6) symxsize(6) order(`" 1 2 3 4 5 6 7 8"') label(1 "1     5.0%") label(2 "2     2.3%") label(3 "3     4.2%")  label(4 "4     7.1%") label(5 "5    59.3%") label(6 "6    12.5%")  label(7 "7     4.4%") label(8 "8     5.3%") label(9 "")  label(10 "") label(11 "") label(12 "")  label(14 "") label(15 "") label(16 "")  label(17 "") label(18 "") label(19 "") ) ytitle(age65 HUI3OU) xtitle(Time from event (year)) ylabel() xlabel() yscale(titlegap(*5)) xscale(titlegap(*5)) scale(1.2)"'
+.date = "14 May 2021"
+.time = "18:00:22"
+.dta_file = "/schhome/users/anikethm/Trajectories/NewData/age65.dta"
+.dta_date = "14 May 2021 13:18"
+.plotregion1.plot1.style.editstyle line(width(+.1985193678318286)) editcopy
+.plotregion1.plot2.style.editstyle line(width(+.0937878250652161)) editcopy
+.plotregion1.plot3.style.editstyle line(width(+.1660438826639076)) editcopy
+.plotregion1.plot4.style.editstyle line(width(+.2823309604246036)) editcopy
+.plotregion1.plot5.style.editstyle line(width(+2.373219553736906)) editcopy
+.plotregion1.plot6.style.editstyle line(width(+.4983310679157358)) editcopy
+.plotregion1.plot7.style.editstyle line(width(+.176430912700756)) editcopy
+.plotregion1.plot8.style.editstyle line(width(+.2113364296610496)) editcopy
+<EndItem>

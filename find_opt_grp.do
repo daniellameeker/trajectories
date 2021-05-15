@@ -28,7 +28,7 @@ foreach var in `event' {
 	
 	local orders 3
 	
-	use /schhome/users/anikethm/Trajectories/Data/`var'.dta, clear
+	use /schhome/users/anikethm/Trajectories/NewData/`var'.dta, clear
 	
 	* null hypothesis
 	traj, model(cnorm) var(hui3ou*) indep(obsint*) order(`orders') refgroup(1) min(-0.36) max(1.0)

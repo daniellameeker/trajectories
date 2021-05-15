@@ -1,16 +1,18 @@
 /**
-Generate SparseHUI data for each event
+Plot Real-Trajectories given an event or list of events
 
 @author - Aniketh Manjunath
-@version - 4.0
-@start_date - 02/06/2021
-@end_date - 05/11/2021
+@version - 3.0
+@start_date - 12/26/2020
+@end_date - Ongoing
 **/
+
+// age65 chf1 copd dementia fall mp_icu mp_2hosp65 nurshome surgery
+
+set more off
 
 * list of all events
 local event = "age65 chf1 copd dementia fall mp_icu mp_2hosp65 nurshome surgery"
-local init_var = "init_age init_stroke init_hearte init_lunge init_cancre init_diabe init_hibpe"
-local risk_var = "n_init_age ragender race"
 
 foreach var in `event' {
 	
@@ -85,16 +87,15 @@ foreach var in `event' {
 	drop if dup != 0
 	drop dup
 	
-	keep hhidpn hui3ou obsint `risk_var' `init_var'
+	keep hhidpn hui3ou obsint
 
 	gen obsint_tmp = obsint
 	replace obsint = obsint_tmp * 90 / 365
 	sort hhidpn obsint
-
-	reshape wide obsint hui3ou, i(hhidpn) j(obsint_tmp)
-		
-	* drop dead at first
-	// drop if hui3ou0 == 0
 	
-	save "/schhome/users/anikethm/Trajectories/NewData/`var'.dta", replace
+	egen group = group(hhidpn)
+	su group, meanonly
+	
+	scatter hui3ou obsint, msymbol(circle_hollow) mcolor(blue%10)
+	graph export "/schhome/users/anikethm/Trajectories/Output/Scatter_Plots/`var'.png",replace
 }
